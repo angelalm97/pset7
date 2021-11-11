@@ -126,7 +126,7 @@ body {
 						.append("text")
 						.attr("class","label")
 						.attr("x", 30)
-						.attr("y", (d, i) => i * (barHeight + gap) + marginTop + 20)
+						.attr("y", (d, i) => i * (barHeight + gap) + marginTop)
 						.classed("text-styling", true)
 						.text(d => d[0])
 						.attr("text-anchor", "end")
